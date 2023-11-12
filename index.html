@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container con-black">
+
+
+    <!-- header section  -->
+    <div class="nav">
+
+      <div class="logo">
+
+        <div class="overlay"></div>
+
+        <div class="menu_open">
+          <img src="./images/icon-menu.svg" alt="">
+        </div>
+
+        <div class="menu_close">
+          <img src="./images/icon-close.svg" alt="">
+        </div>
+
+        <div class="logo-icon">
+          <img src="./images/logo.svg" alt="">
+        </div>
+        <div class="list-menu">
+          <ul>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cart">
+        <div class="cart-value">
+
+          <span class="cart-input">0</span>
+
+          <img src="./images/icon-cart.svg" alt="">
+        </div>
+        <div class="profile">
+          <img src="./images/image-avatar.png" alt="">
+        </div>
+
+        <!-- cart pop-up  -->
+
+        <div class="cart-pop">
+
+          <div class="cart-empty">
+            <h2>Cart</h2>
+            <div class="line"></div>
+            <p>Your cart is Empty.</p>
+          </div>
+
+          <!-- cart filled  -->
+          <div class="cart-filled">
+            <h2>Cart</h2>
+            <div class="line"></div>
+
+            <div class="cart-items">
+              <div class="product-img">
+                <img src="./images/image-product-1-thumbnail.jpg" alt="">
+              </div>
+              <div class="cart-details">
+                <div class="product-tittle">
+                  <h3>Fall Limited Edition Sneakers</h3>
+                </div>
+                <div class="total">
+                  <p>$125.00 × <span class="multi">3</span></p>
+                  <h1 class="item-total">$375.00</h1>
+                </div>
+              </div>
+              <div class="delete">
+                <img src="./images/icon-delete.svg" alt="">
+              </div>
+            </div>
+            <div class="checkout">
+              <button>Checkout</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- header section  -->
+
+
+
+    <!-- main section  -->
+
+    <div class="main">
+
+      <!-- Main Images section -->
+      <div class="main-left">
+        <div class="image">
+          <img src="./images/image-product-1.jpg" alt="" class="mobimg">
+        </div>
+
+        <div class="image_arrows">
+          <div class="image_left">
+            <img src="./images/icon-previous.svg" alt="" class="mobimg">
+          </div>
+          <div class="image_right">
+            <img src="./images/icon-next.svg" alt="">
+          </div>
+        </div>
+        <div class="img-gallary">
+          <img src="./images/image-product-1-thumbnail.jpg" alt="" class="selected">
+          <img src="./images/image-product-2-thumbnail.jpg" alt="" >
+          <img src="./images/image-product-3-thumbnail.jpg" alt="" >
+          <img src="./images/image-product-4-thumbnail.jpg" alt="" >
+        </div>
+
+      </div>
+
+
+      <!-- main content section  -->
+
+      <div class="main-right">
+        <div class="right-content">
+          <div class="tittle">
+            <p>Sneaker Company</p>
+          </div>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+        </div>
+
+        <div class="price">
+          <div class="new-price">
+            <h2>$125.00 </h2>
+            <span>50%</span>
+          </div>
+          <div class="old">
+            <p>$250.00</p>
+          </div>
+        </div>
+
+        <div class="quntity">
+
+          <div class="quntity_add">
+            <button class="minus">
+              <img src="./images/icon-minus.svg" alt="">
+            </button>
+            <span class="item-value">0</span>
+            <button class="plus">
+              <img src="./images/icon-plus.svg" alt="">
+            </button>
+          </div>
+
+          <div class="quntity_btn">
+            <button>
+              <img src="./images/icon-cart.svg" alt="">
+              Add to cart
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- main section ends  -->
+
+
+
+  </div>
+  <!-- lighting box section  -->
+
+  <div class="light-box">
+    <div class="light-pop">
+      <div class="close">
+        <img src="./images/icon-close.svg" alt="">
+      </div>
+
+      <div class="light-img">
+        <div class="img-scroll">
+          <div class="lightthumbnail">
+            <img src="./images/image-product-1.jpg" alt="" class="mobimg">
+          </div>
+        </div>
+        <div class="arrows">
+          <div class="light-left">
+            <img src="./images/icon-previous.svg" alt="">
+          </div>
+          <div class="light-right">
+            <img src="./images/icon-next.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="img-gallary">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="" class="selected">
+        <img src="./images/image-product-2-thumbnail.jpg" alt="">
+        <img src="./images/image-product-3-thumbnail.jpg" alt="">
+        <img src="./images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- lighting box section ends  -->
+
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
